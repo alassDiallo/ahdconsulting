@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHD Consulting - Solutions IA & Technologies Innovantes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AHD Consulting</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#avantages">Avantages</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Solutions Innovantes en Intelligence Artificielle</h1>
+            <p>Transformons vos idées en solutions concrètes et performantes pour particuliers et entreprises</p>
+            <a href="#contact" class="cta-button">Démarrer votre projet</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>Solutions IA pour Particuliers</h3>
+                <ul>
+                    <li>Assistant personnel intelligent</li>
+                    <li>Automatisation des tâches quotidiennes</li>
+                    <li>Solutions domotiques personnalisées</li>
+                    <li>Gestion intelligente des finances</li>
+                    <li>Optimisation de la productivité personnelle</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Solutions IA pour Entreprises</h3>
+                <ul>
+                    <li>Automatisation des processus métier</li>
+                    <li>Analyse prédictive des données</li>
+                    <li>Service client automatisé</li>
+                    <li>Optimisation des chaînes d'approvisionnement</li>
+                    <li>Détection des fraudes en temps réel</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Formation et Accompagnement</h3>
+                <ul>
+                    <li>Formations sur mesure en IA</li>
+                    <li>Ateliers pratiques pour particuliers</li>
+                    <li>Programmes de certification pour entreprises</li>
+                    <li>Support technique continu</li>
+                    <li>Ressources d'apprentissage en ligne</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="avantages" class="avantages">
+        <h2>Nos Avantages</h2>
+        <div class="avantages-container">
+            <div class="avantage-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Pour les Particuliers</h3>
+                <ul>
+                    <li>Solutions personnalisées adaptées à vos besoins</li>
+                    <li>Prix compétitifs et forfaits flexibles</li>
+                    <li>Support technique réactif 7j/7</li>
+                    <li>Formation gratuite sur l'utilisation des solutions</li>
+                    <li>Garantie de satisfaction</li>
+                </ul>
+            </div>
+            <div class="avantage-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Pour les Entreprises</h3>
+                <ul>
+                    <li>Augmentation de la productivité jusqu'à 40%</li>
+                    <li>ROI garanti sur les investissements IA</li>
+                    <li>Solutions évolutives avec votre entreprise</li>
+                    <li>Support dédié et prioritaire</li>
+                    <li>Audit et conseil stratégique inclus</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="expertise">
+        <h2>Notre Expertise</h2>
+        <div class="expertise-grid">
+            <div class="expertise-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Analyse de Données</h3>
+                <p>Solutions avancées d'analyse prédictive et de visualisation de données</p>
+            </div>
+            <div class="expertise-item">
+                <i class="fas fa-robot"></i>
+                <h3>Automatisation IA</h3>
+                <p>Développement de systèmes automatisés intelligents</p>
+            </div>
+            <div class="expertise-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Sécurité des Données</h3>
+                <p>Protection et sécurisation des données sensibles</p>
+            </div>
+            <div class="expertise-item">
+                <i class="fas fa-cloud"></i>
+                <h3>Solutions Cloud</h3>
+                <p>Intégration et optimisation des services cloud</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Nos coordonnées</h3>
+                <p><i class="fas fa-phone"></i> 07 82 64 71 20</p>
+                <p><i class="fas fa-envelope"></i> contact@ahdconsulting.com</p>
+                <p><i class="fas fa-clock"></i> Disponible 7j/7 de 9h à 19h</p>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="name" placeholder="Nom" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <select id="type" required>
+                    <option value="">Type de client</option>
+                    <option value="particulier">Particulier</option>
+                    <option value="entreprise">Entreprise</option>
+                </select>
+                <textarea id="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>AHD Consulting</h3>
+                <p>Solutions innovantes en IA et technologies de pointe</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Liens Rapides</h4>
+                <a href="#accueil">Accueil</a>
+                <a href="#services">Services</a>
+                <a href="#avantages">Avantages</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AHD Consulting. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 
