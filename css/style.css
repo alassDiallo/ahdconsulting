@@ -35,9 +35,22 @@ nav {
     padding: 1rem 5%;
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.logo-img {
+    max-height: 70px;
+    width: auto;
+}
+
+.logo-text {
     font-size: 1.5rem;
     font-weight: bold;
     color: #2c3e50;
@@ -46,6 +59,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    margin-left: auto;
 }
 
 .nav-links li a {
@@ -403,6 +417,24 @@ footer {
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-logo .logo-img {
+    max-height: 50px;
+    width: auto;
+}
+
+.footer-logo h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 /* Responsive Design */
