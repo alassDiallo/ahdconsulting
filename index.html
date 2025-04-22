@@ -139,15 +139,19 @@
                 <p><i class="fas fa-envelope"></i> contact@ahdconsulting.com</p>
                 <p><i class="fas fa-clock"></i> Disponible 7j/7 de 9h à 19h</p>
             </div>
-            <form id="contact-form" class="contact-form">
-                <input type="text" id="name" placeholder="Nom" required>
-                <input type="email" id="email" placeholder="Email" required>
-                <select id="type" required>
+            <form id="contact-form" class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/merci.html">
+                <input type="hidden" name="form-name" value="contact" />
+                <p class="hidden">
+                    <label>Ne remplissez pas ce champ : <input name="bot-field" /></label>
+                </p>
+                <input type="text" name="name" id="name" placeholder="Nom" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <select name="type" id="type" required>
                     <option value="">Type de client</option>
                     <option value="particulier">Particulier</option>
                     <option value="entreprise">Entreprise</option>
                 </select>
-                <textarea id="message" placeholder="Votre message" required></textarea>
+                <textarea name="message" id="message" placeholder="Votre message" required></textarea>
                 <button type="submit">Envoyer</button>
             </form>
         </div>

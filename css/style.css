@@ -551,4 +551,8 @@ footer {
     .impact-challenges, .impact-solutions {
         margin-bottom: 30px;
     }
+}
+
+.hidden {
+    display: none;
 } 
